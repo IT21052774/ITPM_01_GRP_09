@@ -18,7 +18,7 @@ info = (args) => console.log(chalk.blue(`[${new Date().toLocaleString()}] [INFO]
 warning = (args) => console.log(chalk.yellow(`[${new Date().toLocaleString()}] [WARN]`), typeof args === 'string' ? chalk.yellowBright(args) : args);
 error = (args) => console.log(chalk.red(`[${new Date().toLocaleString()}] [ERROR]`), typeof args === 'string' ? chalk.redBright(args) : args);
 
-const db_url = "mongodb+srv://root:071656Ad@cluster0.zekgg7g.mongodb.net/test"
+const db_url = "mongodb+srv://kavindip09:071656Ad@cluster0.ntaz7wu.mongodb.net/test"
 const port = 8080
 
 mongoose.connect(db_url)
