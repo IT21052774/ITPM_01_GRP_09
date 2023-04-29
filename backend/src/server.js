@@ -2,6 +2,8 @@ const http = require("http")
 const mongoose = require("mongoose")
 const express = require("express")
 
+const fileUpload=require("express-file-upload")
+
 const activityController = require("./controllers/activity_controller")
 const customerController = require("./controllers/customer_controller")
 const employeeController = require("./controllers/employee_controller")
