@@ -7,10 +7,10 @@ const mongoose = require("mongoose");
 
 //create
 router.post("/create-safari-item", (req, res, next) => {
-   const { name,  price, image, description } = req.body;
+   const { type,name, price, image, description } = req.body;
    const r = new safari_Item(
       {
-         _id: new mongoose.Types.ObjectId(),
+         type,
          description,
          name,
          price,
