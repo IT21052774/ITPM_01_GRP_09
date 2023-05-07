@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 
 
 //create
-router.post("/create-employee", (req, res, next) => {
+router.post("/create-employe", (req, res, next) => {
    const { name, age, address, salary, nic_number, role,joinedDate,mobileNumber } = req.body;
    const employee = new Employee(
       {

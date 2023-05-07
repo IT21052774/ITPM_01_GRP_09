@@ -75,4 +75,4 @@ router.delete("/delete-room/:id", (req, res, next) => {
       .catch((error) => res.status(500).json({ error }));
 })
 
-module.exports = router
+module.exports = router;
