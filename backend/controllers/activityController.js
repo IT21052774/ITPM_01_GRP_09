@@ -47,7 +47,7 @@ exports.update = (req, res) => {
             message: "Activity content can not be empty"
         });
     }
-
+//update service
     Activity.findByIdAndUpdate(req.params.id, {
         name: req.body.name,
         price: req.body.price,
