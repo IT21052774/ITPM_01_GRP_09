@@ -8,8 +8,6 @@ The Hotel Management System is a web-based application that provides a comprehen
 
 - **Reservation Management**: Users can make room reservations based on availability, view reservation details, modify or cancel existing reservations, and receive email notifications for reservation confirmations.
 
-- **Room and Inventory Management**: The application enables the management of room types, availability, rates, and amenities. It also allows for the tracking of inventory items and their stock levels.
-
 - **Billing and Invoicing**: Users can generate bills for room charges and additional services used by customers. The system provides functionalities for generating invoices, tracking payments, and managing financial transactions.
 
 - **Reporting and Analytics**: The system offers various reports and analytics to monitor hotel performance, including occupancy rates, revenue analysis, customer preferences, and more.
