@@ -39,6 +39,7 @@ exports.findAll = (req, res) => {
         });
 };
 
+
 // Update an activity identified by the id in the request
 exports.update = (req, res) => {
     // Validate Request
