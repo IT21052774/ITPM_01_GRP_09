@@ -88,7 +88,7 @@ Food.findByIdAndRemove(req.params.id)
     })
     .catch(err => {
         if (err.kind === 'ObjectId' || err.name === 'NotFound') {
-            return res.status(404).send({
+            return res.status(403).send({
                 message: "Food not found with id " + req.params.id
             });
         }
