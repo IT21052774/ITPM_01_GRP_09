@@ -1,0 +1,101 @@
+/* src/components/CustomPackage.css */
+
+.custom-package-form {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-package-form h1 {
+    text-align: center;
+    color: var(--gradient-text);
+    text-decoration: underline;
+    margin-bottom: 20px;
+  }
+  
+  .choice-section {
+    margin-bottom: 20px;
+  }
+  
+  .choice-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: var(--color-subtext);
+  }
+  
+  .choice-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .choice-item input[type="checkbox"],
+  .choice-item input[type="radio"] {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid var(--color-subtext);
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  
+  .choice-item input[type="checkbox"]:checked,
+  .choice-item input[type="radio"]:checked {
+    background: var(--gradient-bar);
+    border: none;
+  }
+  
+  .choice-item label {
+    font-size: 1.1rem;
+  }
+  
+  .custom-package-form select,
+  .custom-package-form button {
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+  
+  .custom-package-form select {
+    width: 100%;
+    margin-bottom: 20px;
+    background: var(--color-footer);
+    color: var(--color-subtext);
+  }
+  
+  .custom-package-form button {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding: 0;
+    background-image: var(--gradient-bar);
+    color: var(--color-text);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-package-form button:hover {
+    transform: scale(1.05);
+  }
+  
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.15);
+    /* Adjust the alpha value for the desired transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Adjust the shadow properties as needed */
+    backdrop-filter: blur(5px);
+    /* Requires browser support for backdrop-filter property */
+    -webkit-backdrop-filter: blur(5px);
+    /* For Safari compatibility */
+    padding: 20px;
+    width: 300px;
+}

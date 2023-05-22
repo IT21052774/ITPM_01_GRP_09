@@ -1,0 +1,1 @@
+sonar-scanner.bat -D"sonar.projectKey=itpm_backend" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=sqp_67fb3e432f04bd1d63798a04383150cbea231204"

@@ -1,0 +1,4 @@
+const appName = 'Blue Wagon';
+const baseUrl = 'http://localhost:8080';
+const whatis = "Welcome to our beachfront hotel, the Blue Wagon, where paradise awaits! We take pride in being a calm oasis tucked away along the stunning beach. Our goal is to provide visitors a memorable beach vacation so they may take those memories with them for the rest of their lives.Escape to our beachfront paradise, where the hypnotic rhythm of the waves and the golden sands provide the perfect setting for your ideal holiday. Take in the breathtaking scenery of the coast, luxuriate in top-notch amenities, and make memories that will live on in your heart forever. Indulge in the ideal combination of leisure, excitement, and coastal luxury at our spectacular beachfront hotel."
+export default { appName, baseUrl,whatis };
