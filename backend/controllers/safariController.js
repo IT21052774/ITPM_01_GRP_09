@@ -78,14 +78,14 @@ exports.delete = (req, res) => {
         .then(safari => {
             if (!safari) {
                 return res.status(404).send({
-                    message: "Safari not found with id " + req.params.id
+                    message: "Safari is not found with id " + req.params.id
                 });
             }
             res.send({ message: "Safari deleted successfully!" });
         }).catch(err => {
             if (err.kind === 'ObjectId' || err.name === 'NotFound') {
                 return res.status(404).send({
-                    message: "Safari not found with id " + req.params.id
+                    message: "Safari is not found with id " + req.params.id
                 });
             }
             return res.status(403).send({
