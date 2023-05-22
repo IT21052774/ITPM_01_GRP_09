@@ -91,7 +91,7 @@ exports.delete = (req, res) => {
                     message: "Activity not found with id " + req.params.id
                 });
             }
-            return res.status(500).send({
+            return res.status(404).send({
                 message: "Could not delete activity with id " + req.params.id
             });
         });

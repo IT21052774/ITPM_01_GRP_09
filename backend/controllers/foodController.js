@@ -92,7 +92,7 @@ Food.findByIdAndRemove(req.params.id)
                 message: "Food not found with id " + req.params.id
             });
         }
-        return res.status(500).send({
+        return res.status(404).send({
             message: "Could not delete food with id " + req.params.id
         });
     });
