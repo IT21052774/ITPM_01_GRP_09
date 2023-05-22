@@ -73,6 +73,7 @@ exports.update = (req, res) => {
         });
 };
 
+
 // Delete an activity with the specified id in the request
 exports.delete = (req, res) => {
     Activity.findByIdAndRemove(req.params.id)
