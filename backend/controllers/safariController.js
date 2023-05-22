@@ -88,7 +88,7 @@ exports.delete = (req, res) => {
                     message: "Safari not found with id " + req.params.id
                 });
             }
-            return res.status(500).send({
+            return res.status(403).send({
                 message: "Could not delete safari with id " + req.params.id
             });
         });
