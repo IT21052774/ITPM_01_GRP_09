@@ -1,4 +1,4 @@
-// import firebase from '../firebase';
+import firebase from '../firebase';
 import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 
 
