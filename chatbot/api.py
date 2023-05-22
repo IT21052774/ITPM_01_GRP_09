@@ -28,7 +28,7 @@ dataset = {
         "responses": ["Goodbye! Have a great day."]
     },
     "safari": {
-        "patterns": ["Tell me about safaris", "What safaris do you offer?", "Can you provide safari details?" , " What are the prices for the safari packages?" , "What safety measures should you take when going on a safari?"],
+        "patterns": ["Tell me more about safaris", "What safaris do you offer?", "Can you provide safari details?" , " What are the prices for the safari packages?" , "What safety measures should you take when going on a safari?"],
         "responses": ["We offer exciting safari experiences in various national parks and reserves. Our safaris include guided tours, wildlife viewing, and accommodation. Which specific safari are you interested in?", 
                       "The prices for the safari packages vary depending on the package. For example, the all-inclusive packages start at 2,000 per person, the partial-inclusive packages start at 1,500 per person, the private packages start at 5,000 per person, and the group packages start at 3,000 per person." , "Keep be by your guide's side,Follow your guide's directions,Pay attention your surroundings."]
     },
