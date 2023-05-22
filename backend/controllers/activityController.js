@@ -14,7 +14,6 @@ exports.create = (req, res) => {
         image: req.body.image,
         description: req.body.description
     });
-
     activity.save()
         .then(data => {
             res.send(data);
