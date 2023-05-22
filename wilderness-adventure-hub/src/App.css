@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  background-color: floralwhite;
+  background-color: white;
 }
 
 body {
@@ -28,7 +28,7 @@ a {
   background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
   /* global 92%+ browsers support */
-  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgdn hariiiidn hariiiba(4, 12, 24, 1) 25%);
 }
 
 .gradient__text {
@@ -85,7 +85,7 @@ a {
 
 @media screen and (max-width: 550px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 4rem 1rem;
   }
 
   .section__margin {
