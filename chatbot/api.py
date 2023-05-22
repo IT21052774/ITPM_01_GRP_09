@@ -1,6 +1,6 @@
 dataset = {
     "greetings": {
-        "patterns": ["Hi", "Hello", "Hey"],
+        "patterns": ["Hi", "Hello", "Hey","Helloooo","Hiiiii","Whats up mate"],
         "responses": ["Hello! How can I assist you?", "Hi there! How can I help you today?"]
     },
     "menu": {
