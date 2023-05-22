@@ -4,13 +4,13 @@ The Hotel Management System is a web-based application that provides a comprehen
 
 ## Features
 
-- **User Management**: The system allows for the creation and management of user accounts with different roles such as administrators, staff, and customers. Each role has specific permissions and access levels.
+- **Room  Management**: The system allows for the creation and management of user accounts with different roles such as administrators, staff, and customers. Each role has specific permissions and access levels.
 
-- **Reservation Management**: Users can make room reservations based on availability, view reservation details, modify or cancel existing reservations, and receive email notifications for reservation confirmations.
+- **Food   Management**: Users can book rooms based on availability. 
 
-- **Billing and Invoicing**: Users can generate bills for room charges and additional services used by customers. The system provides functionalities for generating invoices, tracking payments, and managing financial transactions.
+- **Safari Management**: Users can generate bills for room charges and additional services used by customers. The system provides functionalities for generating invoices, tracking payments, and managing financial transactions.
 
-- **Reporting and Analytics**: The system offers various reports and analytics to monitor hotel performance, including occupancy rates, revenue analysis, customer preferences, and more.
+- **Activity Managent**: The system offers various reports and analytics to monitor hotel performance, including occupancy rates, revenue analysis, customer preferences, and more.
 
 - **Machine Learning Chat Bot**: The integrated chat bot utilizes machine learning algorithms to provide automated customer support, answer frequently asked questions, and assist with room reservations.
 
